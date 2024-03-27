@@ -9,7 +9,7 @@
     <VueDatePicker v-model="rangeDate" range />
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { computed, ref, onMounted } from "vue"
 import VueDatePicker from "@vuepic/vue-datepicker"
 import "@vuepic/vue-datepicker/dist/main.css"
