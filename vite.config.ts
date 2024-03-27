@@ -15,5 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: '/vuejs-3/'
+  base: '/vuejs-3/dist/',
 })
